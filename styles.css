@@ -40,8 +40,13 @@ body {
 }
 
 button {
-    padding: 20px 80px 20px 80px;
-    font-size: x-large;
-    background-color: white;
+    padding: 20px 80px; 
+    min-width: 0; 
+    box-sizing: border-box; 
+    color: black;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
+    font-size: x-large;
+    border: 1px solid black;
 }
